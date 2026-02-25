@@ -11,15 +11,24 @@
     flex:5%;
     background-color: darkgray ;
 }
+.menu a{
+    padding:15px 20px ;
+    color : green ;
+}
+.menu hover{
+    background-color: lightgray ;
+    color : black ;
+}
 .content{
     flex: 70%;
     background-color: white ;
 }
-. content{
+.content iframe{
     flex:1;
-    border:none;
-    width:100%;
-    height:100%;
+    border:none ;
+    width: 100%;
+    height: 100%;
+}
 .footer{
     flex: 5%;
     background-color: lightgray ;
