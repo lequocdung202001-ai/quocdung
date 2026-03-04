@@ -6,7 +6,7 @@
 .header{
     flex: 20%;
     background-color: lightgray ;
-    background: url("images/logoNQ.png") center/100% 100%
+    background: url("images/logoNQ.png") center/100% 100%;
     aspect-ratio: 1/6;
 }
 .menu{
@@ -17,7 +17,7 @@
     padding:15px 20px ;
     color : green ;
 }
-.menu hover{
+.menu a:hover{
     background-color: lightgray ;
     color : black ;
 }
