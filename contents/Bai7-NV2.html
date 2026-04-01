@@ -4,6 +4,14 @@
     <title>Bai7-NV2</title>
 </head>
 <body>
+    <p idm="kq"> </p>
+    <script>
+        let pp = new URLSearchParams(window.location.search);
+        let ten = pp.get("txtTen");
+        let yk = pp.get("txtComment");
+        document.getElementById("kq").innerHTML = "Cảm ơn bạn" + ten
+         + " đã góp ý <br><br>Chúng tôi ghi nhận ý kiến của bạn:<br>" + yk ;
+    </script>
     <form action="Bai7-NV1.html">
     <h3> Chúng tôi rất vui khi nhận được những đóng góp nhẹ nhàng của bạn</h3>
     <p> Công ty xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới. Và 1 lần nữa xin cảm ơn đã chọn công ty của chúng tôi</p>
